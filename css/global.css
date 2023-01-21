@@ -1,0 +1,17 @@
+body{
+    font-family: inconsolota;
+    background-color: #30333e;
+    font-weight: normal;
+    color: white;
+	margin: auto;
+}
+.command{
+    color: orange;
+}
+
+#header{
+    display: grid;
+    place-items: center;
+    padding-right: 132px;
+	color: orange;
+}

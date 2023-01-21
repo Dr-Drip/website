@@ -1,0 +1,66 @@
+#navigate ul{
+    list-style-type: none;
+}
+
+.description {
+    height: 35vh;
+    /*This part is important for centering*/
+    display: grid;
+    place-items: center;
+}
+  
+.typing {
+width: 34ch;
+animation: typing 2s steps(32), blink .5s step-end infinite alternate;
+white-space: nowrap;
+overflow: hidden;
+font-size: 1.5em;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+   
+}
+
+.hide{
+    animation: invisible 2.2s;
+    font-size: 1.5em;
+    width: 33ch;
+}
+
+.hide2{
+	animation: invisible 3s;
+	font-size: 1.5em;
+	width: 33ch;
+}
+
+@keyframes invisible {
+    0% {
+        visibility: hidden;
+    }
+
+    98%{
+        visibility: hidden;
+    }
+
+    100%{
+        visibility: visible;
+    }
+}
+
+#container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+a, a:link, a:visited {
+    text-decoration: none;
+    color: orange;
+}
+
+.links {
+    text-decoration: none;
+    color: orange;
+}
