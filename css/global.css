@@ -40,3 +40,12 @@ h1 {
 ul{
     list-style-type:none ;
 }
+
+blockquote{
+    padding: 5% 0% 5% 0%;
+}
+
+blockquote p{
+    display: inline;
+    font-style: italic;
+}
